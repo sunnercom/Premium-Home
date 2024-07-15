@@ -1,0 +1,288 @@
+/* core styles */
+body {
+    font-family: 'Megrim';
+    font-size: 22px;
+}
+
+
+/* header section */
+header {
+    margin-bottom: 30px;
+}
+
+.navbar {
+    background: linear-gradient(251.21deg, #5E4C1E 36.78%, #816B34 63.22%);
+    align-items: center;
+    background-size: cover;
+}
+
+.navbar-brand {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.title-main {
+    font-family: Megrim;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-right: 630px;
+}
+
+.nav-link {
+    font-family: Megrim;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.4px;
+    color: white;
+    padding-right: 20px;
+
+}
+
+.nav-link:hover {
+    color: #816B34;
+    background: #f4d589;
+}
+
+/* main section */
+.intro-slide {
+    height: 549px;
+    /* width: 1280px; */
+    margin-bottom: 30px;
+}
+
+.about-me {
+    margin-top: 275px;
+    display: flex;
+    color: white;
+}
+
+.text-box {
+    background: linear-gradient(251.21deg, #5E4C1E 36.78%, #816B34 63.22%);
+    width: 700px;
+    height: 700px;
+    top: -289px;
+    left: -972px;
+    text-align: center;
+
+}
+
+.about-logo {
+    width: 238px;
+    height: 226.06px;
+    margin-top: 68px;
+    margin-bottom: 45px;
+}
+
+.text-box h3 {
+    width: 430px;
+    font-family: Megrim;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.text-box p {
+    width: 496px;
+    height: 140px;
+    font-family: Megrim;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+}
+
+.about-pictr img {
+    width: 595px;
+}
+
+.products {
+    margin-top: 45px;
+    display: flex;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.products-box {
+    background: linear-gradient(251.21deg, #5E4C1E 36.78%, #816B34 63.22%);
+    text-align: center;
+    width: 305px;
+}
+
+.products-box h3 {
+    width: 145px;
+    color: rgb(255, 255, 255);
+    font-family: Megrim;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    padding-left: 72px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+
+.products-box p {
+    width: 208px;
+    color: rgb(255, 255, 255);
+    font-family: Megrim;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0 auto;
+    padding-bottom: 55px;
+}
+
+.products-box button {
+    width: 208px;
+    height: 51px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    background: rgba(217, 217, 217, 0);
+    color: white;
+    margin-bottom: 12px;
+}
+
+.products-box button:hover {
+    border: 1px dashed #feb702;
+    color: #f4d589;
+}
+
+.locations {
+    background: linear-gradient(251.21deg, #5E4C1E 36.78%, #816B34 63.22%);
+    width: 1280px;
+    height: 680px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.locations-logo {
+    padding: 154px 564px;
+}
+
+.locate {
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 1222px;
+    height: 183px;
+}
+
+.locations-info {
+    margin-left: 56px;
+}
+
+.locations-section {
+    width: 191px;
+    height: 148px;
+    padding-top: 18px;
+    padding-left: 50px;
+    padding-bottom: 17px;
+}
+
+.locate-one {
+    display: flex;
+    align-items: center;
+}
+
+.locate-one p {
+    margin-left: 10px;
+    width: 200px;
+    color: rgb(95, 80, 42);
+    font-family: Megrim;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.locate-two {
+    display: flex;
+    align-items: center;
+}
+
+.locate-two p {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(95, 80, 42);
+    font-family: Megrim;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.locate-thre {
+    display: flex;
+    align-items: center;
+}
+
+.locate-thre p {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(95, 80, 42);
+    font-family: Megrim;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+}
+
+.location-social {
+    margin-top: 37px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.location-social p {
+    width: 440px;
+    height: 69px;
+    color: rgb(94, 76, 30);
+    font-family: Megrim;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.social a {
+    padding-right: 17px;
+}
+
+.location-contact {
+    width: 360px;
+    height: 148px;
+    margin-left: 76px;
+    display: flex;
+}
+
+.location-contact input {
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(129, 107, 52);
+    border-radius: 5px;
+    background: rgb(254, 254, 254);
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+.location-contact textarea {
+    width: 300px;
+    height: 99px;
+    box-sizing: border-box;
+    border: 2px solid rgb(129, 107, 52);
+    border-radius: 5px;
+    background: rgb(254, 254, 254);
+}
+
+.location-contact button {
+    margin-top: 10px;
+    width: 50px;
+    height: 155px;
+    border: rgb(126, 107, 57);
+    border-radius: 5px;
+    background: linear-gradient(65.30deg, rgb(126, 107, 57) 21.482%, rgb(194, 164, 85) 78.518%);
+}
+
+/* footer */
