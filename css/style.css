@@ -286,3 +286,29 @@ header {
 }
 
 /* footer */
+.navbar-bg {
+    background: linear-gradient(160.20deg, rgb(16, 11, 0) 31.458%,rgb(55, 48, 30) 68.542%);
+    color: white;
+    margin: 0 auto;
+}
+
+.nav-ul {
+   margin: 0 auto;
+}
+
+.nb {
+    margin-left: 75px;
+}
+
+.navbar-text {
+    margin-right: 30px;
+}
+
+.nb-one {
+    color: white;
+    text-decoration: none;
+}
+
+.nb-one:hover {
+    color: white;
+}
